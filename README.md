@@ -17,6 +17,7 @@ To use the PHY the following has to be changed in
 the ethernet module supplied by XMOS: module_ethernet\src\server\eth_phy.xc:
 
  #define PHY_ID 0x8001
+ 
  #define PHY_ADDRESS 0x01 (depends on the hardware design, 0x01 is for this board)
 
 It is likely that the TI TLK110 PHY can also be used on this design,
