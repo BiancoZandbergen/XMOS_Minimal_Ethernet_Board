@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://www.xmos.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.xmos.com http://www.xmos.com">
+  <Type>Board</Type>
+
+  <Declarations>
+    <Declaration>core stdcore[1]</Declaration>
+  </Declarations>
+
+  <Packages>
+    <Package Id="P1" Type="XS1-L1A-LQ64">
+      <Nodes>
+        <Node Id="XMOS1" Type="XS1-L1A" InPackageId="0" Oscillator="25MHz" SystemFrequency="400MHz" ReferenceFrequency="100MHz">         
+          <Boot>
+            <Source Location="SPI:bootFlash"/>
+          </Boot>
+          <Core Number="0" Reference="stdcore[0]">
+            <Port Location="XS1_PORT_1A" Name="PORT_SPI_MISO"/>
+            <Port Location="XS1_PORT_1B" Name="PORT_SPI_SS"/>
+            <Port Location="XS1_PORT_1C" Name="PORT_SPI_CLK"/>
+            <Port Location="XS1_PORT_1D" Name="PORT_SPI_MOSI"/> 
+          </Core>           
+        </Node>
+      </Nodes>    
+    </Package>
+  </Packages>
+      
+  <ExternalDevices>
+    <Device NodeId="XMOS1" Core="0" Class="SPIFlash" Name="bootFlash" Type="AT25DF041A">
+      <Attribute Name="PORT_SPI_MISO" Value="PORT_SPI_MISO" />
+      <Attribute Name="PORT_SPI_SS" Value="PORT_SPI_SS" />
+      <Attribute Name="PORT_SPI_CLK" Value="PORT_SPI_CLK" />
+      <Attribute Name="PORT_SPI_MOSI" Value="PORT_SPI_MOSI" />
+    </Device>
+  </ExternalDevices>
+  
+  <JTAGChain>
+     <JTAGDevice NodeId="XMOS1" Position="0"/>  
+  </JTAGChain>
+
+</Network>
