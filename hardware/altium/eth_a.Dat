@@ -1,0 +1,38 @@
+Field=Description~String~Description~106|Field=Value~String~Value~128|Field=Quantity~Integer~Quantity~54|Field=Designator~String~Designator~148|Field=Manufacturer~String~Manufacturer~112|Field=ProductCode~String~ProductCode~67|Field=VendorCode~String~VendorCode~69|Field=Vendor~String~Vendor~66|Field=Price~String~Price~100|Field=Footprint~String~Footprint~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~eth_a.PrjPCB|ReportField=ProjectFullPath~C:\projects\altium\pcb\xmos_proto_eth_a\eth_a.PrjPCB|ReportField=Title~Bill of Materials For Schematic Document [eth_a.SchDoc]|ReportField=TotalQuantity~87|ReportField=ReportTime~14:40:45|ReportField=ReportDate~27-5-2012|ReportField=ReportDateTime~27-5-2012 14:40:45|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~27-5-2012|ReportField=CurrentTime~14:40:42|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\projects\altium\pcb\xmos_proto_eth_a\eth_a.SchDoc|ReportField=DocumentName~eth_a.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~27-5-2012|ReportField=Organization~|ReportField=ProjectName~eth_a.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~XMOS XS1-L1 DP83848C Ethernet PHY Prototype|ReportField=DataSourceFileName~eth_a.SchDoc|ReportField=DataSourceFullPath~C:\projects\altium\pcb\xmos_proto_eth_a\eth_a.SchDoc
+4Mbit SPI Flash||1|U3|ATMEL|AT25DF041A-SSH-B|1715441|Farnell|1,60|SOIC150-8_M
+Buck Converter||2|U4, U5|ON SEMICONDUCTOR|NCP1521BSNT1G|1432258|Farnell|1,58|SOT23-5
+Buffer (open drain output)||1|U8|TEXAS INSTRUMENTS|SN74LVC1G07DBV|1102969|Farnell|0,47|SOT23-5
+Capacitor|100nF|18|C1, C2, C3, C5, C6, C8, C9, C11, C13, C14, C16, C17, C20, C21, C23, C30, C32, C34|MURATA|GRM188R71H104KA93D|8820023|Farnell|0,05|1608[0603]_CAP
+Capacitor|10uF|9|C7, C10, C12, C15, C19, C24, C26, C27, C29|AVX|0805ZD106KAT2A|1833812|Farnell|0,12|2012[0805]_CAP
+Capacitor|150pF|2|C31, C33|MURATA|GRM1885C1H151JA01D|8819874|Farnell|0,05|1608[0603]_CAP
+Capacitor|1uF|1|C4|KEMET|C0603C105K4RACTU|1650837|Farnell|0,17|1608[0603]_CAP
+Capacitor|33pF|2|C25, C28|MURATA|GRM1885C1H330JA01D|1828910|Farnell|0,03|1608[0603]_CAP
+Crystal Oscillator SMD 5mm x 3.2mm|25 MHz|1|Y1|TXC|7C-25.000MBB-T|1842032|Farnell|3,21|OSC_32_50
+Ferrite Bead|600Z|1|FB1|MURATA|BLM18AG601SN1D|1515679|Farnell|0,06|1608[0603]_FB
+Header, 2-Pin||3|P1, P2, P3|||||0,00|HDR1X2
+Header, 6-Pin||1|P4|||||0,00|HDR1X6
+Inductor|2u2H|1|L1|BOURNS|SRR4011-2R2YL|1828153|Farnell|1,04|BOURNS_SRR4011
+Inductor|3u3H|1|L2|BOURNS|SRR4011-3R3YL|1828154|Farnell|0,27|BOURNS_SRR4011
+Low Voltage Power Supply Connector||1|J3|SWITCHCRAFT|RAPC722X|1608727|Farnell|1,58|KLD-0202
+Power on Reset controller 0.9V||1|U6|TEXAS INSTRUMENTS|TPS3808G09DBVT|1755527|Farnell|2,45|SOT23-6
+Power on Reset controller 3.0V||1|U7|TEXAS INSTRUMENTS|TPS3808G30DBVT|1755533|Farnell|2,45|SOT23-6
+Resistor|100K|1|R21|VISHAY DRALORIC|CRCW0603100KFKEA|1469649|Farnell|0,02|1608[0603]_RES
+Resistor|110R|4|R2, R5, R8, R23|PANASONIC|ERJ3GEYJ111V|2059576|Farnell|0,01|1608[0603]_RES
+Resistor|18K|1|R22|VISHAY DRALORIC|CRCW060318K0FKEAHP|1738921|Farnell|0,04|1608[0603]_RES
+Resistor|1K5|1|R27|PANASONIC|ERJ3GEYJ152V|2059606|Farnell|0,01|1608[0603]_RES
+Resistor|2K2|5|R1, R4, R6, R28, R29|YAGEO|RE0603DR-072K2L|1840583|Farnell|0,01|1608[0603]_RES
+Resistor|470R|1|R16|BOURNS|CR0603-JW-471GLF|2008354|Farnell|0,02|1608[0603]_RES
+Resistor|47K|8|R15, R17, R18, R24, R25, R26, R30, R31|VISHAY DRALORIC|CRCW060347K0FKEA|1469811|Farnell|0,02|1608[0603]_RES
+Resistor|49R9|6|R3, R9, R11, R12, R13, R14|SUSUMU|RR0816Q-49R9-D-68R|1612045|Farnell|0,02|1608[0603]_RES
+Resistor|4K87|1|R10|MULTICOMP|MC 0.063W 0603 1%|1170858|Farnell|0,02|1608[0603]_RES
+Resistor|4R7|1|R7|PANASONIC|ERJ3GEYJ4R7V|2059539|Farnell|0,01|1608[0603]_RES
+Resistor|68K|1|R19|PANASONIC|CRCW060368K0FKEA|1469832|Farnell|0,02|1608[0603]_RES
+Resistor|82K|1|R20|VISHAY DRALORIC|CRCW060382K0FKEAHP|1738930|Farnell|0,04|1608[0603]_RES
+Right Angle,RJ45-Keyed, Flange Mount PCB Jack||1|J1|STEWART CONNECTOR|SI-60062-F|1137983|Farnell|5,21|Steward Con RJ45
+Secure Digital Card Connector, Type A without Cover||1|J4|MULTICOMP|SDAMB-01215BT00|9186140|Farnell|1,60|SDCARD-SDAMB-012
+Single Port 10/100 Mb/s Ethernet PHY||1|U1|National Semiconductor|DP83848CVV|1286816|Farnell|4,89|TSQFP50P900X900-48M
+SMD LED 0805|GREEN|1|D3|KINGBRIGHT|KPHCM-2012SGC-T|1686074|Farnell|0,16|2012[0805]_LED
+SMD LED 0805|ORANGE|2|D1, D2|KINGBRIGHT|KPHCM-2012SECK|1686068|Farnell|0,16|2012[0805]_LED
+SPDT Switch||1|S1|EAO|09.03201.02|1608080|Farnell|1,00|SIP-3
+XMOS XS1-L1 Microprocessor||1|U2|XMOS|XS1-L01A-LQ64-C5|880-1032-ND|Digikey|6,65|XMOS_QFP50P1200X1200X160-65N
+XTAG2 Connector||1|J2|TYCO|2-1634688-0|8395942|Farnell|0,91|IDC2.54-V20D
