@@ -25,3 +25,7 @@ they are pin compatible I believe, but I have yet to confirm it.
 
 Please note that the pictures (except the 3D render) in the images folder
 are from an earlier board revision.
+
+<p align="center">
+  <img src="http://biancozandbergen.github.io/images/xmos_minimal_ethernet_board_1.jpg"/>
+</p>
